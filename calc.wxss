@@ -1,0 +1,69 @@
+/* pages/calc/calc.wxss */
+.content {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color:beige;
+  font-family: "Chaparral Pro" ;
+  color:#9bcce2;
+  overflow-x: hidden;
+  background-image: url(https://ss3.bdstatic.com/70cFv8Sh_Q1YnxGkpoWK1HF6hhy/it/u=1816226017,3847596072&fm=26&gp=0.jpg);
+}
+.layout-top{
+  width: 100%;
+  margin-bottom: 30rpx;
+}
+.layout-bottom{
+  width: 100%;
+}
+.screen {
+  text-align: right;
+  width: 100%;
+  line-height: 260rpx;
+  padding: 0 10rpx;
+  font-weight: bold;
+  font-size: 60px;
+  box-sizing: border-box;
+  border-top: 1px solid #fff;
+}
+.btnGroup {
+  display: flex;
+  flex-direction: row;
+  flex: 1;
+  width: 100%;
+  height: 5rem;
+}
+.item {
+  width:25%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 2px;
+  margin-right: 2px;
+}
+.item:active {
+  background-color: #1822E3;
+}
+.zero{
+  width: 50%;
+}
+.orange {
+  color: #fef4e9;
+  background: #2fb4c5;
+  font-weight: bold;
+}
+.blue {
+  color:#d9eef7;
+  background-color: #2F9AC5;
+}
+.iconBtn{
+  display: flex;
+}
+.icon{
+ display: flex;
+ align-items: center;
+ width:100%;
+ justify-content: center;
+}
