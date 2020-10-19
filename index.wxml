@@ -1,0 +1,19 @@
+<text decode>&nbsp;</text>  
+<swiper indicator-dots indicator-active-color="#fff" autoplay interval="2000" circular previous-margin="20" next-margin="20" >
+    <swiper-item class="banner">
+      <image class="links" src="https://ss0.bdstatic.com/70cFvHSh_Q1YnxGkpoWK1HF6hhy/it/u=4023461685,3863124325&fm=26&gp=0.jpg"></image>
+    </swiper-item>
+    <swiper-item class="banner">
+    <image class="links" src="https://ss0.bdstatic.com/70cFuHSh_Q1YnxGkpoWK1HF6hhy/it/u=337535012,975293492&fm=26&gp=0.jpg"></image>
+    </swiper-item>
+    <swiper-item class="banner">
+    <image class="links" src="https://ss0.bdstatic.com/70cFuHSh_Q1YnxGkpoWK1HF6hhy/it/u=3539060815,282415017&fm=26&gp=0.jpg"></image>
+    </swiper-item>
+</swiper>    
+<text decode>&nbsp;</text>
+
+<view class="select">
+  <navigator class="link" url="/pages/logs/logs" open-type="redirect">看日志</navigator>
+  <navigator class="link" url="/pages/calc/calc" open-type="redirect">计算器</navigator>
+</view>
+

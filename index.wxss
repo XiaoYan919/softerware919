@@ -1,0 +1,23 @@
+.links{height: 100%;}
+.link{height: 100%; 
+  flex-wrap: nowrap;
+  padding-left: 50px;
+  padding-right: 50px;
+  border: 4px double #cfd4d6;
+  background-color: #408860;
+}
+.select{display: flex;
+   color:white;
+   padding-left: 3px;
+}
+
+.scrout{display: flex;flex-wrap: nowrap;}
+.scrbox{width: 20px;height: 40px;background: yellowgreen;
+margin-right: 2px;flex: 0 0 100px;}
+.scrchange{background: red;}
+.banner{height:100%; padding: 0 5px;box-sizing: border-box;}
+.banner image{height: 100%;}
+
+
+
+
