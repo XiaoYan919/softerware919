@@ -100,7 +100,7 @@ Page({
         }
       }
       optarr.push(Number(num));
-      var result = Number(optarr[0])*1.0;
+      var result = Number(optarr[0])*1;
 
       var coutoperator=0;
       var opct=listOperator.length -1 //运算符的个数
@@ -137,10 +137,10 @@ Page({
       
         
       }
-      this.setData({"screenData":result});
+      this.setData({"screenData":parseFloat((result).toFixed(10))});
 
       //存储历史记录
-      this.data.logs.push(arr+"="+String(result));
+      this.data.logs.push(arr+"="+String(parseFloat((result).toFixed(10))));
       wx.setStorageSync("calclogs",this.data.logs);
 
       this.data.arr.length = 0;
